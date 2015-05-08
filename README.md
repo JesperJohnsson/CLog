@@ -8,10 +8,10 @@ A small class for logging information about classes and methods
 <pre><code>PHP >= 5.4.0</code></pre>
 
 ## Introduction
-Instantiate an object of CLog:
+__Instantiate an object of CLog:__
 <pre><code>$newClog = new \jejd14\clog\Clog();</code></pre>
 
-Or instantiate an object of CLog as a shared service within the [Anax](https://github.com/mosbth/Anax-MVC) framework:
+__Or instantiate an object of CLog as a shared service within the [Anax](https://github.com/mosbth/Anax-MVC) framework:__
 <pre><code>$di->setShared('log', function() {
     $log = new \jejd14\clog\CLog();
     return $log;
@@ -28,13 +28,13 @@ Or instantiate an object of CLog as a shared service within the [Anax](https://g
 To properly use the method timestamp listed above you can call it as follows
 (Assuming you've set the service as a shared service in your frontcontroller)
 
-__Inside a class that uses \Anax\DI\TInjectionAware__
+__Inside a class that uses \Anax\DI\TInjectionAware:__
 <pre><code>$this->log->timestamp(__CLASS__, __METHOD__, "A breif comment");</code></pre>
 
-__In your frontcontroller__
+__In your frontcontroller:__
 <pre><code>$app->log->timestamp(__CLASS__, __METHOD__, "A breif comment");</code></pre>
 
-['__CLASS__'](http://php.net/manual/en/language.constants.predefined.php) and [__METHOD__](http://php.net/manual/en/language.constants.predefined.php) are magic methods in PHP.
+[<code>__CLASS__<code>](http://php.net/manual/en/language.constants.predefined.php) and [__METHOD__](http://php.net/manual/en/language.constants.predefined.php) are magic methods in PHP.
 
 ## Composer
 You can add [clog](https://packagist.org/packages/jejd14/clog) to your composer.json file like this.
