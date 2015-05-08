@@ -34,7 +34,7 @@ __Inside a class that uses \Anax\DI\TInjectionAware:__
 __In your frontcontroller:__
 <pre><code>$app->log->timestamp(__CLASS__, __METHOD__, "A breif comment");</code></pre>
 
-[\*__CLASS__\*](http://php.net/manual/en/language.constants.predefined.php) and [\*__METHOD__\*](http://php.net/manual/en/language.constants.predefined.php) are magic methods in PHP.
+[\__CLASS__\](http://php.net/manual/en/language.constants.predefined.php) and [\__METHOD__\](http://php.net/manual/en/language.constants.predefined.php) are magic methods in PHP.
 
 ## Composer
 You can add [clog](https://packagist.org/packages/jejd14/clog) to your composer.json file like this.
