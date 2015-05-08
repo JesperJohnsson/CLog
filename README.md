@@ -29,7 +29,7 @@ To properly use the method timestamp listed above you can call it as follows
 (Assuming you've set the service as a shared service in your frontcontroller)
 
 __Inside a class that uses \Anax\DI\TInjectionAware:__
-<pre><code>$this->log->timestamp(__CLASS__, __METHOD__, "A breif comment");</code></pre>
+<pre><code>$this->di->log->timestamp(__CLASS__, __METHOD__, "A breif comment");</code></pre>
 
 __In your frontcontroller:__
 <pre><code>$app->log->timestamp(__CLASS__, __METHOD__, "A breif comment");</code></pre>
