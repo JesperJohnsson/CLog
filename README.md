@@ -14,10 +14,6 @@ A small class for logging information about classes and methods
 # Composer
 You can add [clog](https://packagist.org/packages/jejd14/clog) to your composer.json file like this.
 
-<pre>
-<code>
-"require": {
+<pre><code>"require": {
   "jejd14/clog": "dev-master"
- }
- </code>
- </pre>
+ }</code></pre>
