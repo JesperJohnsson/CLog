@@ -36,7 +36,8 @@ __In your frontcontroller:__
 
 [__CLASS__](http://php.net/manual/en/language.constants.predefined.php) and [__METHOD__](http://php.net/manual/en/language.constants.predefined.php) are magic methods in PHP.
 
-\*literal asterisks\*
+__To get all the timestamps as a table:__
+<pre><code>$table = $app->log->timestampAsTable();</code></pre>
 
 ## Composer
 You can add [clog](https://packagist.org/packages/jejd14/clog) to your composer.json file like this.
