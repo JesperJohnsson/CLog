@@ -28,7 +28,7 @@ __Or instantiate an object of CLog as a shared service within the [Anax](https:/
 To properly use the method timestamp listed above you can call it as follows
 (Assuming you've set the service as a shared service in your frontcontroller)
 
-__Inside a class that uses \Anax\DI\TInjectionAware:__
+__Inside a class that extends/implements/uses \Anax\DI\TInjectionAware:__
 <pre><code>$this->di->log->timestamp(__CLASS__, __METHOD__, "A breif comment");</code></pre>
 
 __In your frontcontroller:__
