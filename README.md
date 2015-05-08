@@ -17,3 +17,6 @@ You can add [clog](https://packagist.org/packages/jejd14/clog) to your composer.
 <pre><code>"require": {
   "jejd14/clog": "dev-master"
  }</code></pre>
+ 
+ #License
+ MIT
