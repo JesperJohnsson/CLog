@@ -1,0 +1,20 @@
+{
+    "name": "jejd14/clog",
+    "type": "library",
+    "description": "A small class for logging information about classes and methods",
+    "keywords": ["logging", "debug"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesper Johnsson",
+            "email": "jesper.johnsson1995@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "jejd14\\": "src/" }
+    }
+}
