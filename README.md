@@ -8,10 +8,10 @@ A small class for logging information about classes and methods
 
 # Methods
 
-1. *timestamp ( $domain, $where, $comment = null)* //log a event with a time.
-2. *timestampAsTable ()* //Print all timestamps to a table.
-3. *pageLoadTime()* // Print page per load time.
-4. *memoryPeak()* //Print memory peak.
+1. timestamp ( $domain, $where, $comment = null) *//log a event with a time.*
+2. timestampAsTable () *//Print all timestamps to a table.*
+3. pageLoadTime() *// Print page per load time.*
+4. memoryPeak() *//Print memory peak.*
 
 # Composer
 You can add [clog](https://packagist.org/packages/jejd14/clog) to your composer.json file like this.
