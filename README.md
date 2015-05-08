@@ -1,3 +1,5 @@
+[![License](https://poser.pugx.org/dlid/cdbyuml/license.svg)](https://packagist.org/packages/dlid/cdbyuml)
+
 # CLog
 A small class for logging information about classes and methods
 
