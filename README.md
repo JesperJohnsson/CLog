@@ -1,4 +1,4 @@
-[![License](https://poser.pugx.org/dlid/cdbyuml/license.svg)](https://packagist.org/packages/dlid/cdbyuml)
+[![License](https://poser.pugx.org/dlid/cdbyuml/license.svg)](https://packagist.org/packages/jejd14/clog)
 
 # CLog
 A small class for logging information about classes and methods
