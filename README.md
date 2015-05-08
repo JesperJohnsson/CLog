@@ -25,16 +25,16 @@ Or instantiate an object of CLog as a shared service within the [Anax](https://g
 4. memoryPeak() - *Print memory peak.*
 
 ## Calling of Methods
-To properly use the method timestamp listed above you can call it as follows:
+To properly use the method timestamp listed above you can call it as follows
 (Assuming you've set the service as a shared service in your frontcontroller)
 
-_Inside a class that uses \Anax\DI\TInjectionAware_
+__Inside a class that uses \Anax\DI\TInjectionAware__
 <pre><code>$this->log->timestamp(__CLASS__, __METHOD__, "A breif comment");</code></pre>
 
-_In your frontcontroller_
+__In your frontcontroller__
 <pre><code>$app->log->timestamp(__CLASS__, __METHOD__, "A breif comment");</code></pre>
 
-[__CLASS__](http://php.net/manual/en/language.constants.predefined.php) and [__METHOD__](http://php.net/manual/en/language.constants.predefined.php) are magic methods in PHP.
+['__CLASS__'](http://php.net/manual/en/language.constants.predefined.php) and [__METHOD__](http://php.net/manual/en/language.constants.predefined.php) are magic methods in PHP.
 
 ## Composer
 You can add [clog](https://packagist.org/packages/jejd14/clog) to your composer.json file like this.
