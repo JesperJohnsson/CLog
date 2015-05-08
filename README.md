@@ -34,7 +34,7 @@ __Inside a class that uses \Anax\DI\TInjectionAware:__
 __In your frontcontroller:__
 <pre><code>$app->log->timestamp(__CLASS__, __METHOD__, "A breif comment");</code></pre>
 
-[__CLASS__](http://php.net/manual/en/language.constants.predefined.php) and [__METHOD__](http://php.net/manual/en/language.constants.predefined.php) are magic methods in PHP.
+[CLASS](http://php.net/manual/en/language.constants.predefined.php) and [METHOD](http://php.net/manual/en/language.constants.predefined.php) are magic constants in PHP.
 
 __To get all the timestamps as a table:__
 <pre><code>$table = $app->log->timestampAsTable();</code></pre>
