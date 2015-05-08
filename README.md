@@ -28,10 +28,10 @@ Or instantiate an object of CLog as a shared service within the [Anax](https://g
 To properly use the method timestamp listed above you can call it as follows:
 (Assuming you've set the service as a shared service in your frontcontroller)
 
-###Inside a class that uses *\Anax\DI\TInjectionAware*
+_Inside a class that uses \Anax\DI\TInjectionAware_
 <pre><code>$this->log->timestamp(__CLASS__, __METHOD__, "A breif comment");</code></pre>
 
-###In your frontcontroller
+_In your frontcontroller_
 <pre><code>$app->log->timestamp(__CLASS__, __METHOD__, "A breif comment");</code></pre>
 
 [__CLASS__](http://php.net/manual/en/language.constants.predefined.php) and [__METHOD__](http://php.net/manual/en/language.constants.predefined.php) are magic methods in PHP.
