@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2015 Jesper Johnsson (jesper.johnsson1995@hotmail.com)
+Copyrigh (c) 2015 Jesper Johnsson (jesper.johnsson1995@hotmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
