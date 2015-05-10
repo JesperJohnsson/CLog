@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/JesperJohnsson/CLog.svg?branch=master)](https://travis-ci.org/JesperJohnsson/CLog.svg?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/JesperJohnsson/CLog/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/JesperJohnsson/CLog/?branch=master) [![License](https://poser.pugx.org/dlid/cdbyuml/license.svg)](https://packagist.org/packages/jejd14/clog)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/JesperJohnsson/CLog/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/JesperJohnsson/CLog/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/JesperJohnsson/CLog/badges/build.png?b=master)](https://scrutinizer-ci.com/g/JesperJohnsson/CLog/build-status/master)
+ [![License](https://poser.pugx.org/dlid/cdbyuml/license.svg)](https://packagist.org/packages/jejd14/clog)
 
 # CLog
 ## About
