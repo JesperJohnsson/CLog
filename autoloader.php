@@ -13,7 +13,6 @@
  */
 spl_autoload_register(function ($class) {
     // project-specific namespace prefix
-    //$prefix = 'Foo\\Bar\\';
     $prefix = 'jejd14\\';
     // base directory for the namespace prefix
     $base_dir = __DIR__ . '/src/';
