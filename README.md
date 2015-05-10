@@ -5,7 +5,8 @@
 A small class for logging information about classes and methods
 
 ##PHP Version
-<pre><code>PHP >= 5.4.0</code></pre>
+<pre><code>PHP >= 5.4.0
+Tested on Anax-MVC >= 2.0.4</code></pre>
 
 ## Introduction
 __Instantiate an object of CLog:__
