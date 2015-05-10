@@ -66,7 +66,7 @@ class CLog
      */
     public function timestampAsTable()
     {
-        $prev = $first = $this->timestamp[0]['when'];
+        $first = $this->timestamp[0]['when'];
         $last = $this->timestamp[count($this->timestamp) - 1]['when'];
 
         $html = "<table class=table><caption>Timestamps</caption><tr><th>Domain</th><th>Where</th><th>When (sec)</th><th>Duration (sec)</th><th>Percent</th><th>Memory (MB)</th><th>Memory peak (MB)</th><th>Comment</th></tr>";
@@ -82,7 +82,6 @@ class CLog
             $peak       = round($val['memory-peak'] / 1024 / 1024, 2);
             $when       = round($when, 3);
             $html .= "<tr><td>{$val['domain']}</td><td>{$val['where']}</td><td{$right}>{$when}</td><td{$right}>{$duration}</td><td{$right}>{$percent}</td><td{$right}>{$memory}</td><td{$right}>{$peak}</td><td>{$val['comment']}</td></tr>";
-            $prev = $val['when'];
 
             //Suppresses warnings/errors.
             @$total['domain'][$val['domain']] += $duration;
