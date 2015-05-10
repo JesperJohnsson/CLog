@@ -84,8 +84,8 @@ class CLog
             $html .= "<tr><td>{$val['domain']}</td><td>{$val['where']}</td><td{$right}>{$when}</td><td{$right}>{$duration}</td><td{$right}>{$percent}</td><td{$right}>{$memory}</td><td{$right}>{$peak}</td><td>{$val['comment']}</td></tr>";
 
             //Suppresses warnings/errors.
-            @$total['domain'][$val['domain']] += $duration;
-            @$total['where'][$val['where']] += $duration;
+            $total['domain'][$val['domain']] += $duration;
+            $total['where'][$val['where']] += $duration;
         }
 
         $html .= "</table><table class=table><caption>Duration per domain</caption><tr><th>Domain</th><th>Duration</th><th>Percent</th></tr>";
