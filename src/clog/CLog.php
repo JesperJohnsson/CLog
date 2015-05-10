@@ -1,6 +1,6 @@
 <?php
 
-namespace clog\Log;
+namespace jejd14\clog;
 
 /**
  * Class to log what happens.
